@@ -1,0 +1,60 @@
+---
+title: "Fr. gerundium vs. participium s různými ekvivalenty v různých jazycích"
+format: html
+editor: visual
+echo: false
+message: false
+warning: false
+page-layout: full
+output-dir: pages
+---
+
+```{r}
+library(tidyverse)
+library(plotly)
+library(ggforce)
+library(ggrepel)
+```
+
+```{r}
+metadata <- read_tsv("../data_s_metadaty.tsv", show_col_types = FALSE)
+```
+
+```{r}
+#| fig-height: 70
+#| fig-width: 55
+#| class: fullwidth
+  p <- ggplotly(
+    ggplot(metadata, aes(x = dimension1, 
+                 y = dimension2, 
+                 label = ID_occurrence,
+                 text = str_c(fr1, "**", KWIC.fr,"**", fr2, sep = " "))) + 
+  geom_point(aes(color = src.lang,shape = form.fr), alpha = 0.5, size = 4, position = position_jitter(width = 0.02, height = 0.001)) +
+geom_vline(xintercept = 0, alpha = 0.4) +
+  geom_hline(yintercept = 0, alpha = 0.4) +
+ geom_text(aes(label = ID_occurrence), alpha = 0.5, size = 2) +  
+  scale_x_continuous(limits = c(-0.7, 0.7), guide = TRUE) + 
+  scale_y_continuous(limits = c(-0.7, 0.7), guide = TRUE)  + 
+    guides(shape = guide_legend(order = 1 ), color = guide_legend(order = 0))
+ )
+ 
+ggplotly(p, tooltip = c("text")) |>
+  layout(autosize = TRUE)
+
+```
+
+```{css}
+.fullwidth {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+.fullheight {
+  height: 95vh;
+}
+
+.fullheight .plotly {
+  height: 100% !important;
+}
+```
