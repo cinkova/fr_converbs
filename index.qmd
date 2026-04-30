@@ -1,7 +1,11 @@
 ---
-title: "Grafy pro anotátory"
-format: html
-editor: visual
+title: "Francouzská converba"
+format:
+  html:
+    page-layout: full
+    self-contained: false
+toc: false
+date: today
 ---
 
-## XXXX
+[Gerundium vs. participium translation mining](grafy_pro_anotatory.html)
