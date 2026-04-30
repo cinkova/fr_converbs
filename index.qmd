@@ -9,3 +9,13 @@ date: today
 ---
 
 [Gerundium vs. participium translation mining](grafy_pro_anotatory.html)
+
+::: callout-note
+## Acknowledgments
+
+> Výstup byl vytvořen za podpory Ministerstva školství, mládeže a tělovýchovy a Operačního programu Jan Amos Komenský v rámci projektu Open Science II (reg. č. CZ.02.01.01/00/24_030/0015041).
+>
+> This output was created with the support of the Ministry of Education, Youth and Sports and the Operational Program Johannes Amos Comenius within the project Open Science II (reg. No. CZ.02.01.01/00/24_030/0015041).
+:::
+
+> 
