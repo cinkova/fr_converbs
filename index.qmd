@@ -9,99 +9,438 @@ toc: false
 date: today
 ---
 
-:::::::::: panel-tabset
-## French
+-   :::::::::::: panel-tabset
+    ## French
 
-::: {style="position: relative; padding-top: 0.5%;"}
-<iframe src="French-EEX4E_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+    ::: {style="position: relative; padding-top: 0.5%;"}
+    <iframe src="French-EEX4E_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
-</iframe>
-:::
+    </iframe>
+    :::
 
-[Entire report (html with interactive plot)](html/French_full_report.html) [Entire report (pdf - without interactive plot)](pdf/French_full_report.pdf)
+    [Entire report (html with interactive plot)](html/French_full_report.html) [Entire report (pdf - without interactive plot)](pdf/French_full_report.pdf)
 
-## Spanish
+    ## Spanish
 
-::: {style="position: relative; padding-top: 0.5%;"}
-<iframe src="Spanish-P6VMX_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+    ::: {style="position: relative; padding-top: 0.5%;"}
+    <iframe src="Spanish-P6VMX_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
-</iframe>
-:::
+    </iframe>
+    :::
 
-[Entire report (html with interactive plot)](html/Spanish_full_report.html) [Entire report (pdf - without interactive plot)](pdf/Spanish_full_report.pdf)
+    [Entire report (html with interactive plot)](html/Spanish_full_report.html) [Entire report (pdf - without interactive plot)](pdf/Spanish_full_report.pdf)
 
-## Czech
+    ## Czech
 
-::: {style="position: relative; padding-top: 0.5%;"}
-<iframe src="Czech-NCVZX_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+    ::: {style="position: relative; padding-top: 0.5%;"}
+    <iframe src="Czech-NCVZX_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
-</iframe>
-:::
+    </iframe>
+    :::
 
-[Entire report (html with interactive plot)](html/Czech_full_report.html) [Entire report (pdf - without interactive plot)](pdf/Czech_full_report.pdf)
+    [Entire report (html with interactive plot)](html/Czech_full_report.html) [Entire report (pdf - without interactive plot)](pdf/Czech_full_report.pdf)
 
-## English
+    ## English
 
-::: {style="position: relative; padding-top: 0.5%;"}
-<iframe src="English-TAQVT_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+    ::: {style="position: relative; padding-top: 0.5%;"}
+    <iframe src="English-TAQVT_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
-</iframe>
-:::
+    </iframe>
+    :::
 
-[Entire report (html with interactive plot)](html/English_full_report.html) [Entire report (pdf - without interactive plot)](pdf/English_full_report.pdf)
+    [Entire report (html with interactive plot)](html/English_full_report.html) [Entire report (pdf - without interactive plot)](pdf/English_full_report.pdf)
 
-## Italian
+    ## Italian
 
-::: {style="position: relative; padding-top: 0.5%;"}
-<iframe src="Italian-UMRLE_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+    ::: {style="position: relative; padding-top: 0.5%;"}
+    <iframe src="Italian-UMRLE_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
-</iframe>
-:::
+    </iframe>
+    :::
 
-[Entire report (html with interactive plot)](html/Italian_full_report.html) [Entire report (pdf - without interactive plot)](pdf/Italian_full_report.pdf)
+    [Entire report (html with interactive plot)](html/Italian_full_report.html) [Entire report (pdf - without interactive plot)](pdf/Italian_full_report.pdf)
 
-## Polish
+    ## Polish
 
-::: {style="position: relative; padding-top: 0.5%;"}
-<iframe src="Polish-SLD6U_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+    ::: {style="position: relative; padding-top: 0.5%;"}
+    <iframe src="Polish-SLD6U_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
-</iframe>
-:::
+    </iframe>
+    :::
 
-[Entire report (html with interactive plot)](html/Polish_full_report.html) [Entire report (pdf - without interactive plot)](pdf/Polish_full_report.pdf)
+    [Entire report (html with interactive plot)](html/Polish_full_report.html) [Entire report (pdf - without interactive plot)](pdf/Polish_full_report.pdf)
 
-## Russian
+    ## Russian
 
-::: {style="position: relative; padding-top: 0.5%;"}
-<iframe src="Russian-OAOOR_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+    ::: {style="position: relative; padding-top: 0.5%;"}
+    <iframe src="Russian-OAOOR_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
-</iframe>
-:::
+    </iframe>
+    :::
 
-[Entire report (html with interactive plot)](html/Russian_full_report.html) [Entire report (pdf - without interactive plot)](pdf/Russian_full_report.pdf)
-::::::::::
+    [Entire report (html with interactive plot)](html/Russian_full_report.html) [Entire report (pdf - without interactive plot)](pdf/Russian_full_report.pdf)
 
-## Workflow Documentation
+    ## Workflow Documentation
 
-### Location of source files
+    ### Location of source files
 
-SC's shared folder `myproject_olgaN_converba`.
+    SC's local folder `myproject_olgaN_converba`. Shared with collaborators on OneDrive.
 
-### Github repository
+    ### Github repository
 
-<https://github.com/cinkova/fr_converbs>
+    <https://github.com/cinkova/fr_converbs>
 
-### Github pages
+    The repository contains only files that serve the website <https://cinkova.github.io/fr_converbs/> . I publish the materials for this website using *git subtree split*. The repository corresponds to the *pages* subfolder of *myproject_olgaN_converba*.
 
-<https://cinkova.github.io/fr_converbs/>
+    ::: callout-important
+    ## Committing and pushing to the <https://cinkova.github.io/fr_converbs/> github repository
 
-### Generating full report with interactive plot
+    -   Do not use the buttons in RStudio. Instead, run this sequence of commands from the terminal (linux, MINGW64): navigate to the folder `myproject_olgaN_converba`. From there call this:
 
-The original source file for the entire workflow is called `TranslationMining_pokus.qmd`.
+        ```         
+        git add pages
+        git commit -m "my new message blablabla"
+        git subtree split -P pages -b pages-publish
+        git push origin pages-publish:main
+        ```
 
-## Issues
+        The third line creates a disposable temporary branch called pages-publish (arbitrary name). The fourth line (pushing) says exactly: “Push whatever commit `pages-publish` points to, but call it `main` on the remote.” After pushing is completed, delete the temporary branch:
 
-The input file ("Analyses_v2_SC.xlsx") has a slightly different structure of French columns from other languages' columns. The concordance consists of "fr1", "KWIC.fr", "fr2", whereas the concordances of other languages are not separated into left and right context and KWIC. The corresponding columns are called with the abbreviated name of the given language, e.g. *ru*, *es*, *pl*, *cs*, *it*, *en*.
+        ```         
+        git branch -D pages-publish
+        ```
+
+    -   Never do: `git init` (or, for that matter, anything `git`) inside *pages*. 💀 If you accidentally do, remove the fresh *.git* and *.gitignore* items from *pages*.
+
+    -   What this correct sequence actually does is calling a git helper called *subtree*. This module records changes in the entire parent repository (this is desirable) and extracts *pages* as a standalone history from this record. It publishes only the changes that happened inside the *pages* folder.
+    :::
+
+    ### Github pages
+
+    The page you see on <https://cinkova.github.io/fr_converbs/> is called *index*. The source is a qmd ([Quarto](https://quarto.org/) markdown) [file](https://github.com/cinkova/fr_converbs/blob/main/index.qmd), which I locally render as html (<https://github.com/cinkova/fr_converbs/blob/main/index.html>). In it, I add links to the associated content files manually.
+
+    ### Generating the full report (html, pdf)
+
+    The original source file for the entire workflow is called `TranslationMining_pokus.qmd`. This does not live in *pages* but in the parent folder *myproject_olgaN_converba*. It contains the following parameters in its YAML header:
+
+    -   input_file
+
+    -   language_in_focus
+
+    -   target_form_column
+
+    -   row_id_column
+
+    -   target_left_kwic_column
+
+    -   target_kwic_column
+
+    -   target_right_kwic_column
+
+    -   target_lemma.
+
+    #### Input file
+
+    -   The excel file obtained from collaborators. It is structured like this: each row represents one observation; that is, one sentence in its different language versions. The dataset contains only sentences in which the French version contains an adverbial clause with a *converb* (gerund or participle). Each language version is accompanied with some columns. The French version is accompanied by substantially different columns than the other versions. The other versions seem to be represented in a more or less uniform way.
+
+    -   **Columns common for all languages**
+
+        -   ID
+
+        -   ID_occurrence
+
+        -   src.lang
+
+    -   **Columns pertaining to French**
+
+        -   fr_doc_id
+
+        -   fr_author
+
+        -   fr_title
+
+        -   fr_translator
+
+        -   fr_word.count
+
+        -   fr_s_id
+
+        -   maxNPDepth
+
+        -   subRatio
+
+        -   sLength
+
+        -   maxNPLength
+
+        -   mdd
+
+        -   maxTreeDepth
+
+        -   fr1 ❗
+
+        -   KWIC.fr ❗
+
+        -   fr2 ❗
+
+        -   annotator
+
+        -   form.fr
+
+        -   lemma.fr
+
+        -   fonction.fr ❗called synt.function in other languages
+
+        -   sem_annotator
+
+        -   meaning
+
+    -   **Columns pertaining to Czech**
+
+        -   cs_doc_id
+
+        -   cs_author
+
+        -   cs_title
+
+        -   cs_transl
+
+        -   cs_word.coung ❗typo (should be *coun**t***). And this column is only available for French and Czech.
+
+        -   cs_s_id
+
+        -   maxNPDepth
+
+        -   subRatio
+
+        -   sLength
+
+        -   maxNPLength
+
+        -   mdd
+
+        -   maxTreeDepth
+
+        -   cs
+
+        -   annotator
+
+        -   form.cs
+
+        -   lemma.cs
+
+        -   sem_annotator
+
+        -   meaning
+
+    ::: callout-warning
+    ❗No syntactic function column available for Czech.
+    :::
+
+    -   **Columns pertaining to English**
+
+        -   en_author
+
+        -   en_title
+
+        -   en annotator
+
+        -   form.en
+
+        -   synt.function
+
+        -   lemma.en
+
+        -   sem_annotator
+
+        -   meaning
+
+    -   **Columns pertaining to Spanish**
+
+        -   es_author
+
+        -   es_title
+
+        -   es
+
+        -   annotator.es
+
+        -   form.es
+
+        -   synt. function
+
+        -   lemma
+
+        -   sem_annotator
+
+        -   meaning
+
+    -   **Columns pertaining to Italian**
+
+        -   it_author
+
+        -   it_title
+
+        -   it
+
+        -   annotator.it
+
+        -   form.it
+
+        -   synt.function
+
+        -   lemma.it
+
+        -   meaning=fr ❗not in other non-French columns
+
+        -   meaning
+
+    -   **Columns pertaining to Polish**
+
+        -   pl_author
+
+        -   pl_title
+
+        -   pl
+
+        -   form_annotator.pl
+
+        -   form.pl
+
+        -   lemma.pl
+
+        -   meaning_main ❗different name from other languages
+
+    -   **Columns pertaining to Russian**
+
+        -   ru_author
+
+        -   ru_title
+
+        -   ru
+
+        -   form_annotator.pl
+
+        -   form.ru
+
+        -   lemma.ru
+
+        -   meaning
+
+    #### Source file to generate reports, intermediate data files, and plots
+
+    The most important file in this setup is the Quarto markdown file `myproject_olgaN_converba\01_translMining_pokus.qmd`. It contains a script that I originally made for French. You can either run it chunk by chunk, or *Render* it. The output format options encoded in its YAML header are static html and pdf. Every time you run the file, no matter in which regime, it generates a folder with files. The names of these items encode the target language and contain a random sequence of numbers and letters to prevent overwriting by the next run.
+
+    At first, the target language was only French, but later other languages were required, so I added parameters in the YAML header to enable switching of the target language.
+
+    I have made a copy of it for each language under scrutiny.
+
+    Run it in RStudio or in the terminal. My workflow in terminal (linux) would go like this:
+
+    ```         
+    quarto render TranslationMining_French.qmd --to html --output-dir pages/html --output French_full_report.html
+    ```
+
+    But you can as well take any of these qmd files and run them with new parameters from the command line. The syntax goes like so:
+
+    ```         
+    quarto render TranslationMining_French.qmd \
+      --to html \
+      --output-dir pages/html \
+      --output French_full_report.html \
+      -P language_in_focus:French \
+      -P input_file:Analyses_v2_SC.xlsx \
+      -P target_form_column:form.fr \
+      -P row_id_column:ID_occurrence \
+      -P target_kwic_column:fr
+    ```
+
+    This will produce `pages/html/French_full_report.html` This would be one of the files you see in the language tabs above.
+
+    These are parameters for English (and basically for all non-French languages in the original input file):
+
+    ```         
+    params:
+      input_file: "Analyses_v2_SC.xlsx"
+      language_in_focus: "English"
+      target_form_column: "form.en"
+      row_id_column: "ID_occurrence"
+      target_left_kwic_column: NULL
+      target_kwic_column: "en"
+      target_right_kwic_column: NULL
+      target_lemma: NULL
+    ```
+
+    How to say `null` in the command line:
+
+    ```         
+    -P target_left_kwic_column:null
+    ```
+
+    and strings with spaces must be quoted (just in case):
+
+    ```         
+    -P language_in_focus:"Old French"
+    ```
+
+    When rendered in RStudio, the html/pdf output will always have the same name and will be placed in the same folder as the source and you will have to rename it and move to the `pages/html` or `pages/pdf` folder manually.
+
+    #### Other files generated by the source file
+
+    Besides generating a report in html or pdf, each run of the file generates:
+
+    -   a folder in *myproject_olgaN_converba* with a unique name (e.g. *French_OX37K* or *Russian_0RBB4*)
+
+        -   and within this folder:
+
+            -   static semantic map plot in three different formats (pdf, png, and svg)
+
+            -   a matrix with the Hamming distances (agreement = 0, disagreement = 1) between observations, based on the values in their corresponding `form` columns: *distance_matrix.csv* (it is a csv2 file).
+
+            -   a matrix with the Euclidean (?) distances created by the `stats::cmdscale` command (default setting, 2 dimensions): *mds_result.csv* (also actually a csv2 file).
+
+            -   a tsv file with the following columns:
+
+                -   ID_occurrence
+
+                -   src.lang
+
+                -   the concordance column for the given target language, e.g. *cs*. , or the three columns *fr1, KWIC.fr, fr2* for French.
+
+                -   form.fr
+
+                -   form.cs
+
+                -   form.en
+
+                -   form.es
+
+                -   form.it
+
+                -   form.pl
+
+                -   form.ru
+
+                -   dimension1
+
+                -   dimension2
+
+            -   the dynamic plot created by plotly in *pages*. It consists of a html file and a folder with the same name and *\_files* suffix, e.g. *Polish-SLD6U_offline_interactive_plot.html* and *Polish-SLD6U_offline_interactive_plot_files.* It always shows all data points and their distribution in the two-dimensional space of the multidimensional scaling. The legend lists all forms the data points had in the given target language. The plot is further subdivided in facets (subplots) according to the target language of the given sentence. Polish is missing because there are no documents in the sample with Polish as the source language. This also means that all Polish sentences come from translations.
+
+    ## Issues
+
+    ### Different concordance structure for some languages
+
+    The input file ("Analyses_v2_SC.xlsx") has a slightly different structure of French columns from other languages' columns. The concordance consists of "fr1", "KWIC.fr", "fr2", whereas the concordances of other languages are not separated into left and right context and KWIC. The corresponding columns are called with the abbreviated name of the given language, e.g. *ru*, *es*, *pl*, *cs*, *it*, *en*.
+
+    ### File clutter when you render one language file several times
+
+    To generate a html and a pdf from one source, you have to run render on the source two times. Every time you get a new folder with the tables and a new dynamic plot. The advantage of it is that you can keep track of possible changes due to different versions of the input xlsx file or that you have experimented with something inside the source file. The disadvantage is clutter if you only need one set for each language. Deal with it manually. And mind to link from index to the exact file name (the target language and random sequence must be identical in the link and the file name!)
+
+    ### All Polish texts come from translations
+
+    This could be a problem in future modeling when we model the influence of being an original/ a translation. We might have to disregard the Polish data in that experiment.
+    ::::::::::::
 
 ::: callout-note
 ## Acknowledgments
