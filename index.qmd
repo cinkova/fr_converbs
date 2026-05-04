@@ -1,5 +1,6 @@
 ---
-title: "Francouzská converba"
+title: "French converbs and their translation equivalents in European languages"
+author: "SC"
 format:
   html:
     page-layout: full
@@ -8,14 +9,104 @@ toc: false
 date: today
 ---
 
-[Gerundium vs. participium translation mining](grafy_pro_anotatory.html)
+:::::::::: panel-tabset
+## French
+
+::: {style="position: relative; padding-top: 0.5%;"}
+<iframe src="French-EEX4E_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+
+</iframe>
+:::
+
+[Entire report (html with interactive plot)](html/French_full_report.html) [Entire report (pdf - without interactive plot)](pdf/French_full_report.pdf)
+
+## Spanish
+
+::: {style="position: relative; padding-top: 0.5%;"}
+<iframe src="Spanish-P6VMX_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+
+</iframe>
+:::
+
+[Entire report (html with interactive plot)](html/Spanish_full_report.html) [Entire report (pdf - without interactive plot)](pdf/Spanish_full_report.pdf)
+
+## Czech
+
+::: {style="position: relative; padding-top: 0.5%;"}
+<iframe src="Czech-NCVZX_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+
+</iframe>
+:::
+
+[Entire report (html with interactive plot)](html/Czech_full_report.html) [Entire report (pdf - without interactive plot)](pdf/Czech_full_report.pdf)
+
+## English
+
+::: {style="position: relative; padding-top: 0.5%;"}
+<iframe src="English-TAQVT_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+
+</iframe>
+:::
+
+[Entire report (html with interactive plot)](html/English_full_report.html) [Entire report (pdf - without interactive plot)](pdf/English_full_report.pdf)
+
+## Italian
+
+::: {style="position: relative; padding-top: 0.5%;"}
+<iframe src="Italian-UMRLE_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+
+</iframe>
+:::
+
+[Entire report (html with interactive plot)](html/Italian_full_report.html) [Entire report (pdf - without interactive plot)](pdf/Italian_full_report.pdf)
+
+## Polish
+
+::: {style="position: relative; padding-top: 0.5%;"}
+<iframe src="Polish-SLD6U_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+
+</iframe>
+:::
+
+[Entire report (html with interactive plot)](html/Polish_full_report.html) [Entire report (pdf - without interactive plot)](pdf/Polish_full_report.pdf)
+
+## Russian
+
+::: {style="position: relative; padding-top: 0.5%;"}
+<iframe src="Russian-OAOOR_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+
+</iframe>
+:::
+
+[Entire report (html with interactive plot)](html/Russian_full_report.html) [Entire report (pdf - without interactive plot)](pdf/Russian_full_report.pdf)
+::::::::::
+
+## Workflow Documentation
+
+### Location of source files
+
+SC's shared folder `myproject_olgaN_converba`.
+
+### Github repository
+
+<https://github.com/cinkova/fr_converbs>
+
+### Github pages
+
+<https://cinkova.github.io/fr_converbs/>
+
+### Generating full report with interactive plot
+
+The original source file for the entire workflow is called `TranslationMining_pokus.qmd`.
+
+## Issues
+
+The input file ("Analyses_v2_SC.xlsx") has a slightly different structure of French columns from other languages' columns. The concordance consists of "fr1", "KWIC.fr", "fr2", whereas the concordances of other languages are not separated into left and right context and KWIC. The corresponding columns are called with the abbreviated name of the given language, e.g. *ru*, *es*, *pl*, *cs*, *it*, *en*.
 
 ::: callout-note
 ## Acknowledgments
 
-> Výstup byl vytvořen za podpory Ministerstva školství, mládeže a tělovýchovy a Operačního programu Jan Amos Komenský v rámci projektu Open Science II (reg. č. CZ.02.01.01/00/24_030/0015041).
->
-> This output was created with the support of the Ministry of Education, Youth and Sports and the Operational Program Johannes Amos Comenius within the project Open Science II (reg. No. CZ.02.01.01/00/24_030/0015041).
+> This output was created with the support of the Ministry of Education, Youth and Sports and the Operational Program Johannes Amos Comenius within the project *Open Science II* (reg. No. CZ.02.01.01/00/24_030/0015041) and the project *A lifetime with language: the nature and ontogeny of linguistic communication* (CZ.02.01.01/00/23_025/0008726).
 :::
 
 > 
