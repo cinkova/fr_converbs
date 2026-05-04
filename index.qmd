@@ -9,6 +9,14 @@ toc: false
 date: today
 ---
 
+::: callout-note
+## Acknowledgments
+
+> This output was created with the support of the Ministry of Education, Youth and Sports and the Operational Program Johannes Amos Comenius within the project *Open Science II* (reg. No. CZ.02.01.01/00/24_030/0015041) and the project *A lifetime with language: the nature and ontogeny of linguistic communication* (CZ.02.01.01/00/23_025/0008726).
+:::
+
+> 
+
 -   :::::::::::: panel-tabset
     ## French
 
@@ -442,10 +450,3 @@ date: today
     This could be a problem in future modeling when we model the influence of being an original/ a translation. We might have to disregard the Polish data in that experiment.
     ::::::::::::
 
-::: callout-note
-## Acknowledgments
-
-> This output was created with the support of the Ministry of Education, Youth and Sports and the Operational Program Johannes Amos Comenius within the project *Open Science II* (reg. No. CZ.02.01.01/00/24_030/0015041) and the project *A lifetime with language: the nature and ontogeny of linguistic communication* (CZ.02.01.01/00/23_025/0008726).
-:::
-
-> 
