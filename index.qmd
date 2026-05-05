@@ -327,7 +327,7 @@ date: today
 
         -   ru
 
-        -   form_annotator.pl
+        -   form_annotator.pl ❗`.pl` should probably be `.ru`
 
         -   form.ru
 
@@ -433,13 +433,23 @@ date: today
 
                 -   dimension2
 
-            -   the dynamic plot created by plotly in *pages*. It consists of a html file and a folder with the same name and *\_files* suffix, e.g. *Polish-SLD6U_offline_interactive_plot.html* and *Polish-SLD6U_offline_interactive_plot_files.* It always shows all data points and their distribution in the two-dimensional space of the multidimensional scaling. The legend lists all forms the data points had in the given target language. The plot is further subdivided in facets (subplots) according to the target language of the given sentence. Polish is missing because there are no documents in the sample with Polish as the source language. This also means that all Polish sentences come from translations.
+        -   the dynamic plot created by plotly in *pages*. It consists of a html file and a folder with the same name and *\_files* suffix, e.g. *Polish-SLD6U_offline_interactive_plot.html* and *Polish-SLD6U_offline_interactive_plot_files.* It always shows all data points and their distribution in the two-dimensional space of the multidimensional scaling. The legend lists all forms the data points had in the given target language. The plot is further subdivided in facets (subplots) according to the target language of the given sentence. Polish is missing because there are no documents in the sample with Polish as the source language. This also means that all Polish sentences come from translations.
 
     ## Issues
 
     ### Different concordance structure for some languages
 
     The input file ("Analyses_v2_SC.xlsx") has a slightly different structure of French columns from other languages' columns. The concordance consists of "fr1", "KWIC.fr", "fr2", whereas the concordances of other languages are not separated into left and right context and KWIC. The corresponding columns are called with the abbreviated name of the given language, e.g. *ru*, *es*, *pl*, *cs*, *it*, *en*.
+
+    ### Possible inconsistency in labels inside the form columns
+
+    Maybe some labels should be merged? For instance PP and prep?
+
+    In Russian: PP/pp/ppt/prep? infP/InfP?
+
+    In Czech: conj/Conj
+
+    In Polish: motion???
 
     ### File clutter when you render one language file several times
 
@@ -449,4 +459,3 @@ date: today
 
     This could be a problem in future modeling when we model the influence of being an original/ a translation. We might have to disregard the Polish data in that experiment.
     ::::::::::::
-

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="SC">
-<meta name="dcterms.date" content="2026-05-04">
+<meta name="dcterms.date" content="2026-05-05">
 
 <title>French converbs and their translation equivalents in European languages</title>
 <style>
@@ -66,7 +66,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 4, 2026</p>
+      <p class="date">May 5, 2026</p>
     </div>
   </div>
   
@@ -311,7 +311,7 @@ Warning
 <li><p>ru_author</p></li>
 <li><p>ru_title</p></li>
 <li><p>ru</p></li>
-<li><p>form_annotator.pl</p></li>
+<li><p>form_annotator.pl ❗<code>.pl</code> should probably be <code>.ru</code></p></li>
 <li><p>form.ru</p></li>
 <li><p>lemma.ru</p></li>
 <li><p>meaning</p></li>
@@ -374,14 +374,19 @@ Warning
 <li><p>dimension1</p></li>
 <li><p>dimension2</p></li>
 </ul></li>
-<li><p>the dynamic plot created by plotly in <em>pages</em>. It consists of a html file and a folder with the same name and <em>_files</em> suffix, e.g.&nbsp;<em>Polish-SLD6U_offline_interactive_plot.html</em> and <em>Polish-SLD6U_offline_interactive_plot_files.</em> It always shows all data points and their distribution in the two-dimensional space of the multidimensional scaling. The legend lists all forms the data points had in the given target language. The plot is further subdivided in facets (subplots) according to the target language of the given sentence. Polish is missing because there are no documents in the sample with Polish as the source language. This also means that all Polish sentences come from translations.</p></li>
 </ul></li>
+<li><p>the dynamic plot created by plotly in <em>pages</em>. It consists of a html file and a folder with the same name and <em>_files</em> suffix, e.g.&nbsp;<em>Polish-SLD6U_offline_interactive_plot.html</em> and <em>Polish-SLD6U_offline_interactive_plot_files.</em> It always shows all data points and their distribution in the two-dimensional space of the multidimensional scaling. The legend lists all forms the data points had in the given target language. The plot is further subdivided in facets (subplots) according to the target language of the given sentence. Polish is missing because there are no documents in the sample with Polish as the source language. This also means that all Polish sentences come from translations.</p></li>
 </ul></li>
 </ul>
 </div>
 <div id="tabset-1-9" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-9-tab">
 <h3 id="different-concordance-structure-for-some-languages" class="anchored">Different concordance structure for some languages</h3>
 <p>The input file (“Analyses_v2_SC.xlsx”) has a slightly different structure of French columns from other languages’ columns. The concordance consists of “fr1”, “KWIC.fr”, “fr2”, whereas the concordances of other languages are not separated into left and right context and KWIC. The corresponding columns are called with the abbreviated name of the given language, e.g.&nbsp;<em>ru</em>, <em>es</em>, <em>pl</em>, <em>cs</em>, <em>it</em>, <em>en</em>.</p>
+<h3 id="possible-inconsistency-in-labels-inside-the-form-columns" class="anchored">Possible inconsistency in labels inside the form columns</h3>
+<p>Maybe some labels should be merged? For instance PP and prep?</p>
+<p>In Russian: PP/pp/ppt/prep? infP/InfP?</p>
+<p>In Czech: conj/Conj</p>
+<p>In Polish: motion???</p>
 <h3 id="file-clutter-when-you-render-one-language-file-several-times" class="anchored">File clutter when you render one language file several times</h3>
 <p>To generate a html and a pdf from one source, you have to run render on the source two times. Every time you get a new folder with the tables and a new dynamic plot. The advantage of it is that you can keep track of possible changes due to different versions of the input xlsx file or that you have experimented with something inside the source file. The disadvantage is clutter if you only need one set for each language. Deal with it manually. And mind to link from index to the exact file name (the target language and random sequence must be identical in the link and the file name!)</p>
 <h3 id="all-polish-texts-come-from-translations" class="anchored">All Polish texts come from translations</h3>
