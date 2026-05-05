@@ -458,4 +458,12 @@ date: today
     ### All Polish texts come from translations
 
     This could be a problem in future modeling when we model the influence of being an original/ a translation. We might have to disregard the Polish data in that experiment.
+
+    ### Concordances
+
+    Some concordances are actually pretty long and it may not be easy to see which part is actually the equivalent. This may not be possible to retrieve directly from InterCorp, however. Consider manual splitting into left, KWIC, and right?
+
+    ## form values as colors in graphs
+
+    Maybe forms have too many values for color coding in a graph. I can add the form value into the tooltip or swap it with text id (text id in tooltip, form as point label, or form both in tooltip and as point label).
     ::::::::::::
