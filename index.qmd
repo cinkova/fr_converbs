@@ -433,7 +433,7 @@ date: today
 
                 -   dimension2
 
-        -   the dynamic plot created by plotly in *pages*. It consists of a html file and a folder with the same name and *\_files* suffix, e.g. *Polish-SLD6U_offline_interactive_plot.html* and *Polish-SLD6U_offline_interactive_plot_files.* It always shows all data points and their distribution in the two-dimensional space of the multidimensional scaling. The legend lists all forms the data points had in the given target language. The plot is further subdivided in facets (subplots) according to the target language of the given sentence. Polish is missing because there are no documents in the sample with Polish as the source language. This also means that all Polish sentences come from translations.
+    -   the dynamic plot created by [*plotly*](https://plotly.com/) in *pages*. It consists of a html file and a folder with the same name and *\_files* suffix, e.g. *Polish-SLD6U_offline_interactive_plot.html* and *Polish-SLD6U_offline_interactive_plot_files.* It always shows all data points and their distribution in the two-dimensional space of the multidimensional scaling. The legend lists all forms the data points had in the given target language. The plot is further subdivided in facets (subplots) according to the target language of the given sentence. Polish is missing because there are no documents in the sample with Polish as the source language. This also means that all Polish sentences come from translations.
 
     ## Issues
 
