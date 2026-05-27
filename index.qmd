@@ -19,7 +19,7 @@ date: today
 
 # Multidimensional scaling based exclusively on the *form* values in the individual languages
 
-### Scatterplot - Documents from all source languages,  source languages in individual subplots
+### Scatterplot - Documents from all source languages, source languages in individual subplots
 
 Each tab contains a scatterplot for one target language. X-Axis: Dimension 1, Y-Axis: Dimension 2. Point color = morphosyntactic form in the target language. Tooltip contains: Document ID and the semantic label (*meaning.fr*) in the source language (French in this experiment), and the source language of the concordance. The dimensions are **not** affected by the *meaning.fr* label.
 
@@ -34,7 +34,7 @@ Each tab contains a scatterplot for one target language. X-Axis: Dimension 1, Y-
 
 ## Spanish
 
-<iframe src="Spanish-XCYH0_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="Spanish-7JPKF_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
 
@@ -484,7 +484,7 @@ Maybe forms have too many values for color coding in a graph. I can add the form
 
 ### Scatterplot - Documents from all source languages, all source languages together
 
-:::: panel-tabset
+::: {.panel-tabset style="position: relative; padding-top: 0.5%;"}
 ## French
 
 <iframe src="French-4MIUF_offline_interactive_plot_without_src.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
@@ -493,17 +493,17 @@ Maybe forms have too many values for color coding in a graph. I can add the form
 
 ## Spanish
 
-::: panel-tabset
-<iframe src="Spanish-XCYH0_offline_interactive_plot_without_src.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="Spanish-7JPKF_offline_interactive_plot_without_src.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
+
+[html/Spanish-7JPKF_data_images.zip](html/Spanish-7JPKF_data_images.zip) [html/Spanish-7JPKF_data_images.zip](html/Spanish_full.report.html)
 :::
-::::
 
 ### Scatterplot: Exclusively documents with French as source language
 
 ::: panel-tabset
-## French 
+## French
 
 <iframe src="French-4MIUF_offline_interactive_plot_src_just_fr.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
@@ -511,11 +511,11 @@ Maybe forms have too many values for color coding in a graph. I can add the form
 
 ## Spanish
 
-<iframe src="Spanish-XCYH0_offline_interactive_plot_src_just_fr.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="Spanish-7JPKF_offline_interactive_plot_src_just_fr.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
 
-###  
+### 
 :::
 
 # Multidimensional scaling based on the French semantic label (*meaning.fr*) **and** *form* values in the individual languages
@@ -533,12 +533,12 @@ X-Axis: Dimension 1, Y-Axis: Dimension 2. Point color = morphosyntactic form in 
 
 ## Spanish
 
-<iframe src="Spanish-XCYH0_offline_interactive_plot_without_src_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="Spanish-7JPKF_offline_interactive_plot_without_src_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
 :::
 
-### Scatterplot - Documents from all source languages,  source languages in individual subplots
+### Scatterplot - Documents from all source languages, source languages in individual subplots
 
 X-Axis: Dimension 1, Y-Axis: Dimension 2. Point color = morphosyntactic form in the target language. Tooltip contains: Document ID, meaning in the source language (French in this experiment), and the source language of the concordance. The dimensions are now also affected by the *meaning.fr* label. Each facet (subplot) contains documents with the same source language (so, for instance: a Czech original sentences with semantic labels acquired from their French *translations,* and the forms are also observed in French, Spanish, or other language determined as a target language in an experiment.
 
@@ -551,7 +551,7 @@ X-Axis: Dimension 1, Y-Axis: Dimension 2. Point color = morphosyntactic form in 
 
 ## Spanish
 
-<iframe src="Spanish-XCYH0_offline_interactive_plot_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="Spanish-7JPKF_offline_interactive_plot_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
 :::
@@ -567,7 +567,7 @@ X-Axis: Dimension 1, Y-Axis: Dimension 2. Point color = morphosyntactic form in 
 
 ## Spanish
 
-<iframe src="Spanish-XCYH0_offline_interactive_plot_src_just_fr_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="Spanish-7JPKF_offline_interactive_plot_src_just_fr_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
 :::
