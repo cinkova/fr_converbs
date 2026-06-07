@@ -34,13 +34,13 @@ Each tab contains a scatterplot for one target language. X-Axis: Dimension 1, Y-
 
 ## Spanish
 
-<iframe src="Spanish-8OA1N_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="Spanish-XE8N2_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
 
 [Entire report (html with interactive plot)](html/Spanish_full_report.html) [Entire report (pdf - without interactive plot)](pdf/Spanish_full_report.pdf)
 
-[html/Spanish-8OA1N_data_images.zip](html/Spanish-8OA1N_data_images.zip)
+[html/Spanish-XE8N2__data_images.zip](html/Spanish-XE8N2_.zip)
 
 ## Czech Obsol.
 
@@ -495,13 +495,13 @@ Maybe forms have too many values for color coding in a graph. I can add the form
 
 ## Spanish
 
-<iframe src="Spanish-8OA1N_offline_interactive_plot_without_src.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="Spanish-XE8N2_offline_interactive_plot_without_src.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
 
 
 
-![](html/Spanish-8OA1N__semantic_map_LM_plot.png)
+![](html/Spanish-XE8N2__semantic_map_LM_plot.png)
 :::
 
 ### Scatterplot: Exclusively documents with French as source language
@@ -515,7 +515,7 @@ Maybe forms have too many values for color coding in a graph. I can add the form
 
 ## Spanish
 
-<iframe src="Spanish-8OA1N_offline_interactive_plot_src_just_fr.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="Spanish-XE8N2_offline_interactive_plot_src_just_fr.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
 
@@ -537,11 +537,11 @@ X-Axis: Dimension 1, Y-Axis: Dimension 2. Point color = morphosyntactic form in 
 
 ## Spanish
 
-<iframe src="Spanish-8OA1N_offline_interactive_plot_without_src_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="Spanish-XE8N2_offline_interactive_plot_without_src_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
 
-![](html/Spanish-8OA1N__LM_without_src_with_frmeaning.png)
+![](html/Spanish-XE8N2__LM_without_src_with_frmeaning.png)
 :::
 
 ### Scatterplot - Documents from all source languages, source languages in individual subplots
@@ -557,7 +557,7 @@ X-Axis: Dimension 1, Y-Axis: Dimension 2. Point color = morphosyntactic form in 
 
 ## Spanish
 
-<iframe src="Spanish-8OA1N_offline_interactive_plot_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="Spanish-XE8N2_offline_interactive_plot_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
 :::
@@ -573,7 +573,7 @@ X-Axis: Dimension 1, Y-Axis: Dimension 2. Point color = morphosyntactic form in 
 
 ## Spanish
 
-<iframe src="Spanish-8OA1N_offline_interactive_plot_src_just_fr_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="Spanish-XE8N2_offline_interactive_plot_src_just_fr_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
 :::
