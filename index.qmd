@@ -42,6 +42,7 @@ Each tab contains a scatterplot for one target language. X-Axis: Dimension 1, Y-
 
 [html/Spanish-XE8N2__data_images.zip](html/Spanish-XE8N2_.zip)
 
+
 ## Czech Obsol.
 
 <iframe src="Czech-NCVZX_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
@@ -502,6 +503,8 @@ Maybe forms have too many values for color coding in a graph. I can add the form
 
 
 ![](html/Spanish-XE8N2__semantic_map_LM_plot.png)
+![](html/Spanish-XE8N2__makova_panenka_semantic_map_plot.png)
+
 :::
 
 ### Scatterplot: Exclusively documents with French as source language
@@ -542,6 +545,7 @@ X-Axis: Dimension 1, Y-Axis: Dimension 2. Point color = morphosyntactic form in 
 </iframe>
 
 ![](html/Spanish-XE8N2__LM_without_src_with_frmeaning.png)
+![](html/Spanish-XE8N2__makova_panenka_frmeaning_semantic_map_plot.png)
 :::
 
 ### Scatterplot - Documents from all source languages, source languages in individual subplots
