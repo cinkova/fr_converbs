@@ -26,7 +26,7 @@ Each tab contains a scatterplot for one target language. X-Axis: Dimension 1, Y-
 ::::::::::: panel-tabset
 ## French
 
-<iframe src="French-4MIUF_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="French-KPX32_offline_interactive_plot.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
 
@@ -490,9 +490,12 @@ Maybe forms have too many values for color coding in a graph. I can add the form
 ::: {.panel-tabset style="position: relative; padding-top: 0.5%;"}
 ## French
 
-<iframe src="French-4MIUF_offline_interactive_plot_without_src.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="French-KPX32_offline_interactive_plot_without_src.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
+![](html/French-KPX32__semantic_map_LM_plot.png)
+![](html/French-KPX32__makova_panenka_semantic_map_plot.png)
+
 
 ## Spanish
 
@@ -512,7 +515,7 @@ Maybe forms have too many values for color coding in a graph. I can add the form
 ::: panel-tabset
 ## French
 
-<iframe src="French-4MIUF_offline_interactive_plot_src_just_fr.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="French-KPX32_offline_interactive_plot_src_just_fr.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
 
@@ -534,10 +537,13 @@ X-Axis: Dimension 1, Y-Axis: Dimension 2. Point color = morphosyntactic form in 
 ::: panel-tabset
 ## French
 
-<iframe src="French-4MIUF_offline_interactive_plot_without_src_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="French-KPX32_offline_interactive_plot_without_src_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
 
+
+![](html/French-KPX32__LM_without_src_with_frmeaning.png)
+![](html/French-KPX32__makova_panenka_frmeaning_semantic_map_plot.png)
 ## Spanish
 
 <iframe src="Spanish-XE8N2_offline_interactive_plot_without_src_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
@@ -555,7 +561,7 @@ X-Axis: Dimension 1, Y-Axis: Dimension 2. Point color = morphosyntactic form in 
 ::: {.panel-tabset style="position: relative; padding-top: 0.5%;"}
 ## French
 
-<iframe src="French-4MIUF_offline_interactive_plot_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="French-KPX32_offline_interactive_plot_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
 
@@ -571,7 +577,7 @@ X-Axis: Dimension 1, Y-Axis: Dimension 2. Point color = morphosyntactic form in 
 ::: panel-tabset
 ## French
 
-<iframe src="French-4MIUF_offline_interactive_plot_src_just_fr_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
+<iframe src="French-KPX32_offline_interactive_plot_src_just_fr_with_frmeaning.html" style="width: 100%; height: 90vh; border: none;" loading="lazy">
 
 </iframe>
 
